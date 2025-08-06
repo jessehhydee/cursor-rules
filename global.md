@@ -27,6 +27,8 @@ Follow these rules when you write code:
 - Avoid BEM conventions (__, --), camelCase, PascalCase, or underscores.
 - All class names must be explicit, descriptive, and standalone, but concise.
 - Use flexbox layouts with gap for all spacing instead of margins. Only use margin: 0 auto for centering elements horizontally. Avoid using margin-bottom, margin-top, margin-left, or margin-right for layout spacing.
+- Use px for all units instead of rem, em, or other units.
+- Use global variables for font sizes and colors from global.css/scss when available
 
 ### HTML/JSX Tag Line-Break Rule:
 - Implement accessibility features on elements. For example, a tag should have a tabindex=“0”, aria-label, on:click, and on:keydown, and similar attributes.
